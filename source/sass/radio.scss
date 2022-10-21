@@ -19,26 +19,26 @@
 
 .radio__input + .radio__label::before {
   position: absolute;
-    content: "";
-    top: 50%;
-    left: 0;
-    z-index: 2;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: $light-grey;
-    transform: translateY(-50%);
+  content: "";
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: $light-grey;
+  transform: translateY(-50%);
 }
 
 .radio__input:checked + .radio__label::after {
   position: absolute;
-    content: "";
-    top: 50%;
-    left: 14px;
-    z-index: 5;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background-color: $dark-grey;
-    transform: translateY(-50%);
+  content: "";
+  top: 50%;
+  left: 14px;
+  z-index: 5;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: $dark-grey;
+  transform: translateY(-50%);
 }
