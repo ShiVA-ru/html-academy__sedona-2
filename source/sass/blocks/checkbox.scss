@@ -5,6 +5,10 @@
 .checkbox__label {
   position: relative;
   padding-left: 75px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: none;
 }
 
 .checkbox__input + .checkbox__label::before {

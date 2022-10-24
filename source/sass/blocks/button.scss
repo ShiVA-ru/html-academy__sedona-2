@@ -1,12 +1,14 @@
 .button {
   display: block;
-  width: calc(100% - 40px);
-  margin: auto;
+  // width: calc(100% - 40px);
   padding-top: 16px;
   padding-bottom: 16px;
+  font-family: inherit;
   font-size: 21px;
   line-height: 26px;
   color: $basic-white;
+  text-transform: uppercase;
   background-color: $light-blue;
+  border: none;
   cursor: pointer;
 }
